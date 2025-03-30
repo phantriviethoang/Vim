@@ -82,7 +82,7 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
   5. Now that the line is correct, go on to Lesson 1.4.
 
@@ -106,7 +106,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
+---> There is some text missing from this line.
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to lesson 1.5.
@@ -126,12 +126,12 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
   3. As the text has been appended press <ESC> to return to Normal mode.
 
-  4. Move the cursor to the second line marked ---> and repeat 
+  4. Move the cursor to the second line marked ---> and repeat
      steps 2 and 3 to correct this sentence.
 
----> There is some text missing from th
+---> There is some text missing from this line.
      There is some text missing from this line.
----> There is also some text miss
+---> There is also some text missing here.
      There is also some text missing here.
 
   5. When you are comfortable appending text move to lesson 1.6.
@@ -158,7 +158,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
      the following summary.
 
   6. After reading the above steps and understanding them: do it.
-  
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			       Lesson 1 SUMMARY
 
@@ -200,7 +200,7 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+---> There are some words that don't belong in this sentence.
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
@@ -219,7 +219,7 @@ Now continue with Lesson 2.
 
   4. Type    d$    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+---> Somebody typed the end of this line twice.
 
 
   5. Move on to Lesson 2.3 to understand what is happening.
@@ -291,7 +291,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   3. Repeat steps 1 and 2 with a different count to delete the consecutive
      UPPER CASE words with one command
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+--->  this line of words is cleaned up.
 
 
 
@@ -312,10 +312,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   4. Type   2dd   to delete two lines.
 
 --->  1)  Roses are red,
---->  2)  Mud is fun,
 --->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
 --->  6)  Sugar is sweet
 --->  7)  And so are you.
 
@@ -336,7 +333,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+---> Fix the errors on this line and replace them with undo.
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
@@ -382,10 +379,10 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   5. Repeat steps 2 through 4 to put all the lines in correct order.
 
----> d) Can you learn too?
+---> a) Roses are red,
 ---> b) Violets are blue,
 ---> c) Intelligence is learned,
----> a) Roses are red,
+---> d) Can you learn too?
 
 
 
@@ -403,7 +400,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   4. Repeat steps 2 and 3 until the first line is equal to the second one.
 
---->  Whan this lime was tuoed in, someone presswd some wrojg keys!
+--->  When this line was typed in, someone pressed some wrong keys!
 --->  When this line was typed in, someone pressed some wrong keys!
 
   5. Now move on to Lesson 3.3.
@@ -428,7 +425,7 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This lubw has a few wptfd that mrrf changing usf the change operator.
+---> This line has a few words that need changing using the change operator.
 ---> This line has a few words that need changing using the change operator.
 
 Notice that  ce  deletes the word and places you in Insert mode.
@@ -453,7 +450,7 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
   5. Type  c$  and type the rest of the line like the second and press <ESC>.
 
----> The end of this line needs some help to make it like the second.
+---> The end of this line needs to be corrected using the  c$  command.
 ---> The end of this line needs to be corrected using the  c$  command.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.
@@ -558,13 +555,13 @@ NOTE: This is very useful in debugging a program with unmatched parentheses!
 
   1. Move the cursor to the line below marked --->.
 
-  2. Type  :s/thee/the <ENTER> .  Note that this command only changes the
-     first occurrence of "thee" in the line.
+  2. Type  :s/the/the <ENTER> .  Note that this command only changes the
+     first occurrence of "the" in the line.
 
-  3. Now type  :s/thee/the/g .  Adding the  g  flag means to substitute
-     globally in the line, change all occurrences of "thee" in the line.
+  3. Now type  :s/the/the/g .  Adding the  g  flag means to substitute
+     globally in the line, change all occurrences of "the" in the line.
 
----> thee best time to see thee flowers is in thee spring.
+---> the best time to see the flowers is in the spring.
 
   4. To change every occurrence of a character string between two lines,
      type   :#,#s/old/new/g    where #,# are the line numbers of the range
@@ -741,7 +738,7 @@ NOTE:  You can also read the output of an external command.  For example,
 	     ** Type  a  to insert text AFTER the cursor. **
 
   1. Move the cursor to the start of the line below marked --->.
-  
+
   2. Press  e  until the cursor is on the end of  li .
 
   3. Type an  a  (lowercase) to append text AFTER the cursor.
@@ -750,7 +747,7 @@ NOTE:  You can also read the output of an external command.  For example,
      mode.
 
   5. Use  e  to move to the next incomplete word and repeat steps 3 and 4.
-  
+
 ---> This li will allow you to pract appendi text to a line.
 ---> This line will allow you to practice appending text to a line.
 
@@ -787,9 +784,9 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 	  ** Use the  y  operator to copy text and  p  to paste it **
 
   1. Go to the line marked with ---> below and place the cursor after "a)".
-  
+
   2. Start Visual mode with  v  and move the cursor to just before "first".
-  
+
   3. Type  y  to yank (copy) the highlighted text.
 
   4. Move the cursor to the end of the next line:  j$
@@ -823,7 +820,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 
   6. To disable ignoring case enter:  :set noic
 
-NOTE:  To remove the highlighting of matches enter:   :nohlsearch 
+NOTE:  To remove the highlighting of matches enter:   :nohlsearch
 NOTE:  If you want to ignore case for just one search command, use  \c
        in the phrase:  /ignore\c  <ENTER>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
